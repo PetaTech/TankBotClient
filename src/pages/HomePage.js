@@ -102,7 +102,7 @@ export default function HomePage() {
         {/* <HomeAdvertisement /> */}
 
         <Helmet>
-          <script src="//code.tidio.co/a71vw59hjq8z8mlinf05ocqxqlswfedj.js" async></script>
+          <script src="//code.tidio.co/fidmn52qwy4oy15oseecqdcqu0neks5v.js" async></script>
         </Helmet>
       </Box>
     </>

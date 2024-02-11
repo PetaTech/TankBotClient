@@ -17,8 +17,9 @@ export default function SingleFilePreview({ file }) {
 
   return (
     <Image
-      alt="file preview"
+      alt="file preview1"
       src={imgUrl}
+      style={{objectPosition: 'top'}}
       sx={{
         top: 8,
         left: 8,

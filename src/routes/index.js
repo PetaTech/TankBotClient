@@ -19,6 +19,7 @@ import {
   NewPasswordPage,
   Page404,
   PricePage,
+  CareerPage,
   PrivacyPage,
   RegisterPage,
   ResetPasswordPage,
@@ -87,6 +88,7 @@ export default function Router() {
         { path: 'special', element: <SpecialPage /> },
         { path: 'users', element: <Dashboard /> },
         { path: 'price', element: <PricePage /> },
+        { path: 'career', element: <CareerPage /> },
       ],
     },
     {

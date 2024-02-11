@@ -156,7 +156,6 @@ export function AuthProvider({ children }) {
 
   // REGISTER
   const register = useCallback(async (data) => {
-    console.log(data);
     const response = await axios.post('/api/user/register', data);
     // const { accessToken, user } = response.data;
     const { user } = response.data;
@@ -167,6 +166,32 @@ export function AuthProvider({ children }) {
       type: 'REGISTER',
       payload: {
         user,
+      },
+    });
+  }, []);
+
+    // Job Apply
+  const applyJob = useCallback(async (data) => {
+    const formData = new FormData();
+    formData.append('firstName', data.firstName);
+    formData.append('lastName', data.lastName);
+    formData.append('email', data.email);
+    formData.append('phoneNumber', data.phoneNumber);
+    formData.append('address', data.address);
+    formData.append('city', data.city);
+    formData.append('state', data.state);
+    formData.append('country', data.country);
+    formData.append('linkedinProfile', data.linkedinProfile);
+    formData.append('salary', data.salary);
+    formData.append('startDate', data.startDate);
+    formData.append('resume', data.resume);
+    formData.append('passport', data.passport);
+    formData.append('portfolioLink', data.portfolioLink);
+    formData.append('ssn', data.ssn === '' ? 'null' : data.ssn);
+
+    return await axios.post('/api/user/applyJob', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
       },
     });
   }, []);
@@ -222,10 +247,11 @@ export function AuthProvider({ children }) {
       login,
       register,
       verify,
+      applyJob,
       logout,
       updateUser,
     }),
-    [state.isAuthenticated, state.isInitialized, state.user, login, logout, register, updateUser]
+    [state.isAuthenticated, state.isInitialized, state.user, login, logout, register, applyJob, updateUser]
   );
 
   return <AuthContext.Provider value={memoizedValue}>{children}</AuthContext.Provider>;

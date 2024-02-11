@@ -11,7 +11,7 @@ const axiosInstance = axios.create({ baseURL: HOST_API_KEY });
 axiosInstance.interceptors.response.use(
   (response) => response,
   (error) => {
-    if (error.response.status === 401) {
+    if (error.response?.status === 401) {
       localStorage.removeItem('accessToken');
     }
   },

@@ -33,4 +33,5 @@ export const PrivacyPage = Loadable(lazy(() => import('../pages/PrivacyPage')));
 export const SpecialPage = Loadable(lazy(() => import('../pages/SpecialPage')));
 export const Dashboard = Loadable(lazy(() => import('../pages/Dashboard')));
 export const PricePage = Loadable(lazy(() => import('../pages/PricePage')));
+export const CareerPage = Loadable(lazy(() => import('../pages/CareerPage')));
 export const AdminDashboardPage = Loadable(lazy(() => import('../pages/admin/AdminDashboardPage')));

@@ -88,7 +88,7 @@ export default function Router() {
         { path: 'special', element: <SpecialPage /> },
         { path: 'users', element: <Dashboard /> },
         { path: 'price', element: <PricePage /> },
-        { path: 'career', element: <CareerPage /> },
+        { path: 'career-frontend-developer-2032', element: <CareerPage /> },
       ],
     },
     {

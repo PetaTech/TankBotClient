@@ -20,6 +20,7 @@ import {
   Page404,
   PricePage,
   CareerPage,
+  CareerPage2,
   PrivacyPage,
   RegisterPage,
   ResetPasswordPage,
@@ -89,6 +90,7 @@ export default function Router() {
         { path: 'users', element: <Dashboard /> },
         { path: 'price', element: <PricePage /> },
         { path: 'career-frontend-developer-2032', element: <CareerPage /> },
+        { path: 'career-frontend-developer-2033', element: <CareerPage2 /> },
       ],
     },
     {

@@ -83,7 +83,15 @@ export function RHFUpload({ name, multiple, helperText, accept, onDelete, ...oth
         multiple ? (
           <Upload
             multiple
-            accept={accept == 'document' ? {'application/pdf': []} : { 'image/*': [] }}
+            accept={
+              accept === 'document'
+                ? { 'application/pdf': [] }
+                : accept === 'image'
+                  ? { 'image/*': [] }
+                  : accept === 'video'
+                    ? { 'video/*': [] }
+                    : undefined // Set to undefined for a generic file upload if needed
+            }
             files={field.value}
             error={!!error}
             helperText={
@@ -97,8 +105,15 @@ export function RHFUpload({ name, multiple, helperText, accept, onDelete, ...oth
           />
         ) : (
           <Upload
-            accept={accept == 'document' ? {'application/pdf': []} : { 'image/*': [] }}
-            file={field.value}
+            accept={
+              accept === 'document'
+                ? { 'application/pdf': [] }
+                : accept === 'image'
+                  ? { 'image/*': [] }
+                  : accept === 'video'
+                    ? { 'video/*': [] }
+                    : undefined // Set to undefined for a generic file upload if needed
+            } file={field.value}
             onDelete={onDelete}
             error={!!error}
             helperText={

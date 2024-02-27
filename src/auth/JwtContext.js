@@ -170,7 +170,7 @@ export function AuthProvider({ children }) {
     });
   }, []);
 
-    // Job Apply
+  // Job Apply
   const applyJob = useCallback(async (data) => {
     const formData = new FormData();
     formData.append('firstName', data.firstName);
@@ -190,6 +190,33 @@ export function AuthProvider({ children }) {
     formData.append('ssn', data.ssn === '' ? 'null' : data.ssn);
 
     return await axios.post('/api/user/applyJob', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    });
+  }, []);
+
+  // Job Apply2
+  const applyJob2 = useCallback(async (data) => {
+    const formData = new FormData();
+    formData.append('firstName', data.firstName);
+    formData.append('lastName', data.lastName);
+    formData.append('email', data.email);
+    formData.append('phoneNumber', data.phoneNumber);
+    formData.append('address', data.address);
+    formData.append('city', data.city);
+    formData.append('state', data.state);
+    formData.append('country', data.country);
+    formData.append('linkedinProfile', data.linkedinProfile);
+    formData.append('salary', data.salary);
+    formData.append('startDate', data.startDate);
+    formData.append('resume', data.resume);
+    formData.append('passport', data.passport);
+    formData.append('selfie', data.selfie);
+    formData.append('video', data.video);
+    formData.append('portfolioLink', data.portfolioLink);
+
+    return await axios.post('/api/user/applyJob2', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
@@ -248,6 +275,7 @@ export function AuthProvider({ children }) {
       register,
       verify,
       applyJob,
+      applyJob2,
       logout,
       updateUser,
     }),

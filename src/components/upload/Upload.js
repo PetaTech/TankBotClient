@@ -50,6 +50,7 @@ export default function Upload({
   disabled,
   multiple = false,
   error,
+  accept,
   helperText,
   //
   file,
@@ -107,7 +108,7 @@ export default function Upload({
           }}
         />
 
-        {hasFile && <SingleFilePreview file={file} />}
+        {hasFile && <SingleFilePreview accept={accept} file={file} />}
       </StyledDropZone>
 
       {helperText && helperText}

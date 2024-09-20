@@ -87,7 +87,7 @@ export default function CareerPanel() {
         <div><h3>Nice to have</h3><ul class="posting-requirements plain-list"><ul><li>Experience working with microservices or enterprise APIs/integration.</li><li>Experience working with databases (PostgreSQL, MongoDB, etc.).</li><li>Experience working with Java / Spring / Spring Boot or NodeJS</li><li>Experience with DevOps tools such as Gitlab CI/CD, Kubernetes, Helm, OpenShift, AWS Services, or Docker.</li></ul></ul></div>
 
         <div style={{marginTop: 30, marginBottom: 50}}>
-          <div><span>The TG is a highly curated set of the best software
+          <div><span>The TankBot is a highly curated set of the best software
             developers in the world. It's not easy to become part of this select network - but when you do - you will
             work amongst the best around the world.</span></div>
           <div></div>
@@ -101,8 +101,8 @@ export default function CareerPanel() {
             part of your portfolio.</span></div>
           <div></div>
           <div><span>In parallel - you will have access to an exclusive and energized network of the
-            world's most skilled experts. Community members collaborate inside and outside of TG - as well as at local
-            community events, online hackathons, competitions, etc. The TG is more than a simple
+            world's most skilled experts. Community members collaborate inside and outside of TankBot - as well as at local
+            community events, online hackathons, competitions, etc. The TankBot is more than a simple
             marketplace - it's truly an exclusive club.</span></div>
           <div></div>
           <div><span>Are you talented enough to be in the club?</span></div>

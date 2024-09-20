@@ -10,7 +10,7 @@ export default function SpecialPage() {
   return (
     <>
       <Helmet>
-        <title> Special | TG</title>
+        <title> Special | TankBot</title>
       </Helmet>
       <Special />
     </>

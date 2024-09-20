@@ -137,7 +137,7 @@ function Description() {
             mb: 2,
           }}
         >
-          TG: Where Trading and Technology Development Meet
+          TankBot: Where Trading and Technology Development Meet
           {/* <Typography
             color="primary"
             fontWeight="bold"
@@ -145,7 +145,7 @@ function Description() {
           >
             Consulting Services and Developement
           </Typography>{' '}
-          Get ahead of the curve with TG
+          Get ahead of the curve with TankBot
           <Typography
             component="span"
             color="primary"

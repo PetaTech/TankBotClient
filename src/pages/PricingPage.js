@@ -12,7 +12,7 @@ export default function PricingPage() {
   return (
     <>
       <Helmet>
-        <title> Pricing | TG</title>
+        <title> Pricing | TankBot</title>
       </Helmet>
 
       <Container

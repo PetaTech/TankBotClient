@@ -8,7 +8,7 @@ export default function RegisterPage() {
   return (
     <>
       <Helmet>
-        <title> Register | TG</title>
+        <title> Register | TankBot</title>
       </Helmet>
 
       <Register />

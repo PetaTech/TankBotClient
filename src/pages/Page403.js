@@ -14,7 +14,7 @@ export default function Page403() {
   return (
     <>
       <Helmet>
-        <title> 403 Forbidden | TG</title>
+        <title> 403 Forbidden | TankBot</title>
       </Helmet>
 
       <MotionContainer>

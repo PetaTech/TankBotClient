@@ -107,7 +107,7 @@ export default function PricePanel() {
 
   const displayContent = {
     'badge': 'WELCOME',
-    'header-p1': 'TG',
+    'header-p1': 'TankBot',
     'header-p2': 'trading bots',
     'description': 'Make more money, and enjoy life.',
   };

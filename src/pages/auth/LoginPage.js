@@ -9,7 +9,7 @@ export default function LoginPage() {
   return (
     <>
       <Helmet>
-        <title> Login | TG</title>
+        <title> Login | TankBot</title>
       </Helmet>
 
       <Login />

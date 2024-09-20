@@ -62,7 +62,7 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title> TG </title>
+        <title> TankBot </title>
       </Helmet>
 
       <HomeHero />

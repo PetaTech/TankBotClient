@@ -10,7 +10,7 @@ export default function FaqsPage() {
   return (
     <>
       <Helmet>
-        <title> Faqs | TG</title>
+        <title> Faqs | TankBot</title>
       </Helmet>
 
       <Container sx={{ pt: 15, pb: 10, position: 'relative' }}>

@@ -10,7 +10,7 @@ export default function PrivacyPage() {
   return (
     <>
       <Helmet>
-        <title> Privacy | TG</title>
+        <title> Privacy | TankBot</title>
       </Helmet>
       <Privacy />
     </>

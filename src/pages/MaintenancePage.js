@@ -11,7 +11,7 @@ export default function MaintenancePage() {
   return (
     <>
       <Helmet>
-        <title> Maintenance | TG</title>
+        <title> Maintenance | TankBot</title>
       </Helmet>
 
       <Stack sx={{ alignItems: 'center' }}>

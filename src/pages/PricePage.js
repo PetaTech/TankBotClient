@@ -11,7 +11,7 @@ export default function AboutPage() {
   return (
     <>
       <Helmet>
-        <title> Price | TG</title>
+        <title> Price | TankBot</title>
       </Helmet>
 
       <Elements stripe={stripe}>

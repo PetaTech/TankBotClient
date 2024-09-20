@@ -14,7 +14,7 @@ export default function Page500() {
   return (
     <>
       <Helmet>
-        <title> 500 Internal Server Error | TG</title>
+        <title> 500 Internal Server Error | TankBot</title>
       </Helmet>
 
       <MotionContainer>

@@ -17,7 +17,7 @@ export default function VerifyCodePage() {
   return (
     <>
       <Helmet>
-        <title> Verify Code | TG</title>
+        <title> Verify Code | TankBot</title>
       </Helmet>
 
       <EmailInboxIcon sx={{ mb: 5, height: 96 }} />

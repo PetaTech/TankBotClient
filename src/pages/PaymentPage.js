@@ -14,7 +14,7 @@ export default function PaymentPage() {
   return (
     <>
       <Helmet>
-        <title> Payment | TG</title>
+        <title> Payment | TankBot</title>
       </Helmet>
 
       <Container

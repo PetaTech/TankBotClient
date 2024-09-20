@@ -21,7 +21,7 @@ export default function ComingSoonPage() {
   return (
     <>
       <Helmet>
-        <title> Coming Soon | TG</title>
+        <title> Coming Soon | TankBot</title>
       </Helmet>
 
       <Typography variant="h3" paragraph>

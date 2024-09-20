@@ -10,7 +10,7 @@ export default function ServicePage() {
   return (
     <>
       <Helmet>
-        <title> Service | TG</title>
+        <title> Service | TankBot</title>
       </Helmet>
       <Service />
     </>

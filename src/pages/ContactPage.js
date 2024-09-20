@@ -12,7 +12,7 @@ export default function ContactPage() {
   return (
     <>
       <Helmet>
-        <title> Contact us | TG</title>
+        <title> Contact us | TankBot</title>
       </Helmet>
 
       <Container sx={{ py: 10 }}>

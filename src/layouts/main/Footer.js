@@ -32,7 +32,7 @@ const LINKS = [
   {
     headline: 'Contact',
     children: [
-      { name: 'tgblockchaininvest@gmail.com', href: '#' },
+      { name: 'tankbotblockchaininvest@gmail.com', href: '#' },
       // { name: '10 Agiou Demetriou Lemesos 4527', href: '#' },
     ],
   },

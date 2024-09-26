@@ -88,7 +88,7 @@ export default function NavMobile({ subNav, isOffset, data }) {
 
           {navOpen && <List component='nav' disablePadding>
             {data.map((link) => (
-              ((authContext.user === null && link.role === 'user') || (authContext.user !== null && (link.role === 'user' || authContext.user.role.endsWith(link.role)))) &&
+              ((authContext.user === null && link.role === 'user') || (authContext.user !== null && (link.role === 'user'))) &&
               <NavList key={link.title} item={link} />
             ))}
           </List>}

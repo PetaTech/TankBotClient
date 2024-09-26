@@ -11,7 +11,7 @@ export default function MaintenancePage() {
   return (
     <>
       <Helmet>
-        <title> Maintenance | TankBot</title>
+        <title> Maintenance | PerfectForexTrade</title>
       </Helmet>
 
       <Stack sx={{ alignItems: 'center' }}>

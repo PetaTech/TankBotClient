@@ -10,7 +10,7 @@ export default function ServicePage() {
   return (
     <>
       <Helmet>
-        <title> Service | TankBot</title>
+        <title> Service | PerfectForexTrade</title>
       </Helmet>
       <Service />
     </>

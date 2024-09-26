@@ -32,7 +32,7 @@ const LINKS = [
   {
     headline: 'Contact',
     children: [
-      { name: 'tankbotblockchaininvest@gmail.com', href: '#' },
+      { name: 'perfectforexblockchaininvest@gmail.com', href: '#' },
       // { name: '10 Agiou Demetriou Lemesos 4527', href: '#' },
     ],
   },
@@ -75,7 +75,7 @@ export default function Footer() {
         >
           <Grid item xs={8} md={3}>
             <Typography variant="body2" sx={{ pr: { md: 5 } }}>
-              TankBot is a Leading Trading & Development Company with unique Services/ Tools.
+              PerfectForexTrade is a Leading Trading & Development Company with unique Services/ Tools.
             </Typography>
 
             <Stack
@@ -142,28 +142,28 @@ export default function Footer() {
         <Stack spacing={1} mt={5}>
           <Typography variant="caption">
             The purpose of this website is solely to display information regarding the products and
-            services available on the TankBot-investment.com. It is not intended to offer access to any
+            services available on the perfectforextrade.com. It is not intended to offer access to any
             of such products and services. You may obtain access to such products and services on
-            the TankBot-imvestment.com.
+            the perfectforextrade.com.
           </Typography>
           <Typography variant="caption">
-            Please note that the availability of the products and services on the TankBot-investment.com
-            is subject to jurisdictional limitations. TankBot-investment.com may not offer certain
-            products, features and/or services on the TankBot-investment website in certain jurisdictions
+            Please note that the availability of the products and services on the perfectforextrade.com
+            is subject to jurisdictional limitations. perfectforextrade.com may not offer certain
+            products, features and/or services on the perfectforextrade.com website in certain jurisdictions
             due to potential or actual regulatory restrictions.
           </Typography>
           <Typography variant="caption">
-            TankBot-investment.com is a company incorporated in Cyprus with Company number (HE430023)
-            trading under the name “TankBot-investment.com”. TankBot-investment.com is Limited is authorised
-            to provide the following services: 1. execution of orders for TankBot-investment.com using
+            perfectforextrade.com is a company incorporated in Cyprus with Company number (HE430023)
+            trading under the name “perfectforex-investment.com”. perfectforextrade.com is Limited is authorised
+            to provide the following services: 1. execution of orders for perfectforextrade.com using
             personal funds and personal account; 2. Consulting Trading & Development and 3. Project
-            Development according to TankBot-investment.com services.
+            Development according to perfectforextrade.com services.
           </Typography>
           <Typography variant="caption">
-            Any other product or service offered in the TankBot-investment.com and advertised on this
+            Any other product or service offered in the perfectforextrade.com and advertised on this
             website is provided by other group companies and does not fall within the
-            TankBot-investment.com Limited regulated services.
-            {/* Email: tankbotblockchaininvest@gmail.com |
+            perfectforextrade.com Limited regulated services.
+            {/* Email: perfectforexblockchaininvest@gmail.com |
             Office: 10 Agiou Demetriou, 4527 Moutagiaka, Lemesos , Cyprus */}
           </Typography>
         </Stack>

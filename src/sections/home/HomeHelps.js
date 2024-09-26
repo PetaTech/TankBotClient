@@ -29,7 +29,7 @@ export default function HomeHelps() {
             Profitable trading strategies exist for all market conditions.
           </Typography>
           {/* <Typography>
-            For every market condition, there’s a trading strategy that can profit from it. TankBot bots
+            For every market condition, there’s a trading strategy that can profit from it. PerfectForexTrade bots
             happen to be really good at reducing average acquisition costs, directly increasing your
             profit margins from each trade.
           </Typography> */}

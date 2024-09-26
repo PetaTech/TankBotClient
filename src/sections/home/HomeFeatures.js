@@ -50,7 +50,7 @@ export default function HomeMobileDownload() {
     <StyledRoot>
       <Container component={MotionViewport}>
         <Stack mb={5}>
-          <Typography variant="h2">TankBot Awesome Features</Typography>
+          <Typography variant="h2">PerfectForexTrade Awesome Features</Typography>
         </Stack>
         <Grid container spacing={5}>
           {CONTENTS.map((item, index) => (

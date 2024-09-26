@@ -14,7 +14,7 @@ export default function PaymentPage() {
   return (
     <>
       <Helmet>
-        <title> Payment | TankBot</title>
+        <title> Payment | PerfectForexTrade</title>
       </Helmet>
 
       <Container

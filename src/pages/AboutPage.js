@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <>
       <Helmet>
-        <title> About us | TankBot</title>
+        <title> About us | PerfectForexTrade</title>
       </Helmet>
 
       {/* <AboutHero /> */}

@@ -10,7 +10,7 @@ export default function SpecialPage() {
   return (
     <>
       <Helmet>
-        <title> Special | TankBot</title>
+        <title> Special | PerfectForexTrade</title>
       </Helmet>
       <Special />
     </>

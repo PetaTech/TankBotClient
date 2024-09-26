@@ -17,7 +17,7 @@ export default function ResetPasswordPage() {
   return (
     <>
       <Helmet>
-        <title> Reset Password | TankBot</title>
+        <title> Reset Password | PerfectForexTrade</title>
       </Helmet>
 
       <PasswordIcon sx={{ mb: 5, height: 96 }} />

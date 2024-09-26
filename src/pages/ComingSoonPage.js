@@ -21,7 +21,7 @@ export default function ComingSoonPage() {
   return (
     <>
       <Helmet>
-        <title> Coming Soon | TankBot</title>
+        <title> Coming Soon | PerfectForexTrade</title>
       </Helmet>
 
       <Typography variant="h3" paragraph>

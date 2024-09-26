@@ -9,7 +9,7 @@ export default function LoginPage() {
   return (
     <>
       <Helmet>
-        <title> Login | TankBot</title>
+        <title> Login | PerfectForexTrade</title>
       </Helmet>
 
       <Login />

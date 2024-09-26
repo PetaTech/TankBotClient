@@ -137,7 +137,7 @@ function Description() {
             mb: 2,
           }}
         >
-          TankBot: Where Trading and Technology Development Meet
+          PerfectForexTrade: Where Trading and Technology Development Meet
           {/* <Typography
             color="primary"
             fontWeight="bold"
@@ -145,7 +145,7 @@ function Description() {
           >
             Consulting Services and Developement
           </Typography>{' '}
-          Get ahead of the curve with TankBot
+          Get ahead of the curve with PerfectForexTrade
           <Typography
             component="span"
             color="primary"

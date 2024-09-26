@@ -8,7 +8,7 @@ export default function RegisterPage() {
   return (
     <>
       <Helmet>
-        <title> Register | TankBot</title>
+        <title> Register | PerfectForexTrade</title>
       </Helmet>
 
       <Register />

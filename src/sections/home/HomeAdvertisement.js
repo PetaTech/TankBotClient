@@ -58,7 +58,7 @@ function Description() {
         sx={{ color: 'common.white', mb: 5, typography: 'h2' }}
       >
         Get started with <br />
-        TankBot Trading Bot fully <br /> implemented on{' '}
+        PerfectForexTrade Trading Bot fully <br /> implemented on{' '}
         <Typography component="span" variant="h2" color="warning.main">
           {' '}
           Binance

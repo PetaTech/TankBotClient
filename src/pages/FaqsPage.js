@@ -10,7 +10,7 @@ export default function FaqsPage() {
   return (
     <>
       <Helmet>
-        <title> Faqs | TankBot</title>
+        <title> Faqs | PerfectForexTrade</title>
       </Helmet>
 
       <Container sx={{ pt: 15, pb: 10, position: 'relative' }}>

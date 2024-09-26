@@ -11,7 +11,7 @@ export default function AboutPage() {
   return (
     <>
       <Helmet>
-        <title> Price | TankBot</title>
+        <title> Price | PerfectForexTrade</title>
       </Helmet>
 
       <Elements stripe={stripe}>

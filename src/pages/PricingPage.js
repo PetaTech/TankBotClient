@@ -12,7 +12,7 @@ export default function PricingPage() {
   return (
     <>
       <Helmet>
-        <title> Pricing | TankBot</title>
+        <title> Pricing | PerfectForexTrade</title>
       </Helmet>
 
       <Container

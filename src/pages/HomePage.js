@@ -62,7 +62,7 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title> TankBot </title>
+        <title> PerfectForexTrade </title>
       </Helmet>
 
       <HomeHero />

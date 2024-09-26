@@ -10,7 +10,7 @@ export default function PrivacyPage() {
   return (
     <>
       <Helmet>
-        <title> Privacy | TankBot</title>
+        <title> Privacy | PerfectForexTrade</title>
       </Helmet>
       <Privacy />
     </>

@@ -17,7 +17,7 @@ export default function NewPasswordPage() {
   return (
     <>
       <Helmet>
-        <title> New Password | TankBot</title>
+        <title> New Password | PerfectForexTrade</title>
       </Helmet>
 
       <SentIcon sx={{ mb: 5, height: 96 }} />

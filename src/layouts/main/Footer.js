@@ -180,7 +180,7 @@ export default function Footer() {
               textAlign: { xs: 'center', md: 'left' },
             }}
           >
-            © 2023. All rights reserved
+            © 2024. All rights reserved
           </Typography>
           <Logo sx={{ width: 80 }} />
         </Stack>

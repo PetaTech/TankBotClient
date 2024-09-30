@@ -55,13 +55,13 @@ export default function HomeMinimal() {
 
             <Stack spacing={3}>
               <Typography flex={1} sx={{ pl: { xs: 0, md: 10 } }}>
-                - 100% Self custody control of your API keys & Funds
+                - 100% Self custody control of your accounts
               </Typography>
               <Typography flex={1} sx={{ pl: { xs: 0, md: 10 } }}>
-                - 100% Success in your trading performance
+                - Costs are incurred only when stable profits come out
               </Typography>
               <Typography flex={1} sx={{ pl: { xs: 0, md: 10 } }}>
-                - 100% tested Bulletproof
+                - More than 500 people are satisfied
               </Typography>
               <Typography flex={1} sx={{ pl: { xs: 0, md: 10 } }}>
                 - 24/7 Full Trading Consultant and Technical Support

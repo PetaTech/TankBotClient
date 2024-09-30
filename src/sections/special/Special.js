@@ -97,25 +97,43 @@ export default function Service() {
           </Grid>
         )} */}
         <Stack alignItems="center" spacing={3}>
-          <m.div variants={varFade().inUp}>
+        <m.div variants={varFade().inUp}>
             <Image
-              alt="our office 1"
-              src="/assets/images/special/1.png"
+              alt="Monthly Gain - 2021"
+              src="/assets/images/special/3.png"
               sx={{
                 width: { lg: 800, xs: 1 },
                 borderRadius: 2,
-                boxShadow: shadow,
               }}
             />
           </m.div>
           <m.div variants={varFade().inUp}>
             <Image
-              alt="our office 1"
-              src="/assets/images/special/2.png"
+              alt="Monthly Gain - 2022"
+              src="/assets/images/special/4.png"
               sx={{
                 width: { lg: 800, xs: 1 },
                 borderRadius: 2,
-                boxShadow: shadow,
+              }}
+            />
+          </m.div>
+          <m.div variants={varFade().inUp}>
+            <Image
+              alt="Monthly Gain - 2023"
+              src="/assets/images/special/5.png"
+              sx={{
+                width: { lg: 800, xs: 1 },
+                borderRadius: 2,
+              }}
+            />
+          </m.div>
+          <m.div variants={varFade().inUp}>
+            <Image
+              alt="Monthly Gain - 2024"
+              src="/assets/images/special/6.png"
+              sx={{
+                width: { lg: 800, xs: 1 },
+                borderRadius: 2,
               }}
             />
           </m.div>

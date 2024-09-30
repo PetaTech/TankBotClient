@@ -14,8 +14,8 @@ const CONTENTS = [
     text: 'Our bot offers step and interval step options, allowing for unrestricted trading.',
   },
   {
-    title: 'Self Custody Private VPS',
-    text: 'Personal VPS that offers a self-custody private and secure hosting environment.',
+    title: 'No VPS contract is required',
+    text: 'Using the broker trading connection function, there is no cost or hassle for investors to prepare VPS.',
   },
   {
     title: 'Dashboard',

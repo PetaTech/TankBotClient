@@ -25,8 +25,8 @@ const Cards = [
   },
   {
     icon: 'eva:bar-chart-fill',
-    title: 'Trading Bot Subscription',
-    text: 'Monthly subscription for our in-house trading bot.',
+    title: 'Providing free trading bots',
+    text: 'Easy -to -use conditions only for profit fees',
   },
   {
     icon: 'mdi:shield-check-outline',

@@ -1,16 +1,16 @@
 const StockContents = {
   homeHelps: [
     {
-      title: 'Bear markets',
-      text: 'Use our Short DCA Bot to sell stocks and buy them back later at a lower price, taking advantage of market fluctuations',
+      title: 'Bull & Bear markets',
+      text: 'The unique logic will minimize risks and maximize profits using the unique algorithm, even if any market comes.',
     },
     {
-      title: 'Bull markets',
-      text: 'Use our Long DCA bot help you buy low and sell high, achieving a better average entry price for your positions over time',
+      title: 'Large price movement of economic topics',
+      text: 'The risk detection function works and does not acquire the position. In a dangerous market with important news, it does not risk investor funding by minimizing risk by taking a modest acquisition of a position.',
     },
     {
       title: 'Sideways markets',
-      text: 'Use our Fluctuation Grid bot to take advantage of market movements by buying stocks when they hit support levels and selling them when they"re close to resistance levels',
+      text: 'The profits are determined at a good tempo and accumulated fine profits. However, the trends that make great profits are the market price.',
     },
   ],
   homeSection2: {
@@ -50,24 +50,24 @@ const StockContents = {
       text: 'It is the only bot that grants you the option of step and interval steps. You can trade without boundaries on steps, range and interval steps.',
     },
     {
-      title: 'Self Custody VPS / Api Keys',
-      text: 'Our primary focus is on ensuring the safety and security of our users, we offer a personal self-custody VPS to our users for free, complete with installation and 24/7 support, allowing them complete and unrestricted control over their information. Our users can have peace of mind knowing that they are the only ones with access to their API keys. Our company does not interact with user API keys, emphasizing our commitment to user privacy.',
+      title: 'Stress -free account management',
+      text: 'Our system uses functions for trade connections for FX brokers. Therefore, investors can launch the system for free without cost or effort. There is no need for a personal computer, and all smartphones can freely connect and release trade, so you can experience stress-free.',
     },
     {
       title: 'Strategy',
       text: 'The bot can accommodate to any adjustments towards a trader’s strategy and needs.',
     },
     {
-      title: 'Spot, Future & Convert',
-      text: 'Another unique feature that we offer is that it enables a user to trade Spot / Future / Convert.',
+      title: 'Currency',
+      text: 'The only currency pair to trade is EURUSD. This is a currency pair set carefully and set up from the characteristics of volatility and price movement.',
     },
     {
       title: '',
-      text: 'It is the only bot of its nature that includes simulated or virtual currency.',
+      text: 'It is the only bot of its nature that includes simulated.',
     },
     {
       title: 'Dual Implementation',
-      text: 'It is the only bot with its own exclusive features that are fully implemented for both Forex and Stock exchanging.',
+      text: 'It is a bot that is assembled so that the logic changes in the trend market and the range market.',
     },
     {
       title: 'Partial Orders',
@@ -78,8 +78,8 @@ const StockContents = {
       text: 'A huge benefit and advantage to the user is the assurance of receiving unmatched Technical and Consulting Support from our Support Team.',
     },
     {
-      title: 'Notifications & Messaging',
-      text: 'Be up to date with your trades as our bot is fully implemented with Telegram, ensuring constant updates of a user’s running and completed positions at any given moment without the need to access the Trading Bot or the user’s Account.',
+      title: 'Use of metaTrader4',
+      text: 'Be up to date with your trades as our bot is fully implemented with MetaTrader4（MT4）, ensuring constant updates of a user’s running and completed positions at any given moment without the need to access the Trading Bot or the user’s Account.',
     },
   ],
 };
@@ -136,24 +136,24 @@ const CryptoContents = {
       text: 'It is the only bot that grants you the option of step and interval steps. You can trade without boundaries on steps, range and interval steps.',
     },
     {
-      title: 'Self Custody VPS / Api Keys',
-      text: 'Our primary focus is on ensuring the safety and security of our users, we offer a personal self-custody VPS to our users for free, complete with installation and 24/7 support, allowing them complete and unrestricted control over their information. Our users can have peace of mind knowing that they are the only ones with access to their API keys. Our company does not interact with user API keys, emphasizing our commitment to user privacy.',
+      title: 'Stress -free account management',
+      text: 'Our system uses functions for trade connections for FX brokers. Therefore, investors can launch the system for free without cost or effort. There is no need for a personal computer, and all smartphones can freely connect and release trade, so you can experience stress-free.',
     },
     {
       title: 'Strategy',
       text: 'The bot can accommodate to any adjustments towards a trader’s strategy and needs.',
     },
     {
-      title: 'Spot, Future & Convert',
-      text: 'Another unique feature that we offer is that it enables a user to trade Spot / Future / Convert.',
+      title: 'Currency',
+      text: 'The only currency pair to trade is EURUSD. This is a currency pair set carefully and set up from the characteristics of volatility and price movement.',
     },
     {
       title: '',
-      text: 'It is the only bot of its nature that includes simulated or virtual currency.',
+      text: 'It is the only bot of its nature that includes simulated.',
     },
     {
       title: 'Dual Implementation',
-      text: 'It is the only bot with its own exclusive features that are fully implemented for both cryptocurrencices and stock exchanging.',
+      text: 'It is a bot that is assembled so that the logic changes in the trend market and the range market.',
     },
     {
       title: 'Partial Orders',
@@ -164,8 +164,8 @@ const CryptoContents = {
       text: 'A huge benefit and advantage to the user is the assurance of receiving unmatched Technical and Consulting Support from our Support Team.',
     },
     {
-      title: 'Notifications & Messaging',
-      text: 'Be up to date with your trades as our bot is fully implemented with Telegram, ensuring constant updates of a user’s running and completed positions at any given moment without the need to access the Trading Bot or the user’s Binance Account.',
+      title: 'Use of metaTrader4',
+      text: 'Be up to date with your trades as our bot is fully implemented with MetaTrader4（MT4）, ensuring constant updates of a user’s running and completed positions at any given moment without the need to access the Trading Bot or the user’s Account.',
     },
   ],
 };

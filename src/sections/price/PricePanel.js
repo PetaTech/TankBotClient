@@ -108,7 +108,7 @@ export default function PricePanel() {
   const displayContent = {
     'badge': 'WELCOME',
     'header-p1': 'PerfectForexTrade',
-    'header-p2': 'trading bots',
+    // 'header-p2': 'trading bots',
     'description': 'Make more money, and enjoy life.',
   };
 

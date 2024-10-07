@@ -32,7 +32,7 @@ const LINKS = [
   {
     headline: 'Contact',
     children: [
-      { name: 'perfectforexblockchaininvest@gmail.com', href: '#' },
+      { name: 'contact@perfectforextrade.com', href: 'mailto:contact@perfectforextrade.com' },
       // { name: '10 Agiou Demetriou Lemesos 4527', href: '#' },
     ],
   },

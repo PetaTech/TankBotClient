@@ -217,7 +217,7 @@ function Description() {
             variant="outlined"
             startIcon={<Iconify icon="eva:external-link-fill" width={24} />}
             target="_blank"
-            href="https://www.myfxbook.com/"
+            href=""
             // component={RouterLink}
             // to={'/auth/register'}
             sx={{ borderColor: 'white', color: 'success.main' }}

@@ -27,7 +27,6 @@ import SvgColor from '../../components/svg-color';
 import Iconify from '../../components/iconify';
 import { MotionContainer, varFade } from '../../components/animate';
 import { useSettingsContext } from 'components/settings//SettingsContext';
-import { useAuthContext } from '../../../src/auth/useAuthContext';
 
 // ----------------------------------------------------------------------
 
@@ -126,8 +125,6 @@ export default function HomeHero() {
 // ----------------------------------------------------------------------
 
 function Description() {
-  const { isAuthenticated, isInitialized } = useAuthContext();
-
   return (
     <StyledDescription>
       <m.div variants={varFade().in}>
@@ -213,21 +210,19 @@ function Description() {
               Start Your Free Trial
             </Button>
           </Stack>
-          {isAuthenticated ?
-            <Button
-              color="inherit"
-              size="large"
-              variant="outlined"
-              startIcon={<Iconify icon="eva:external-link-fill" width={24} />}
-              target="_blank"
-              href="https://t.me/+c6jqS8-mOGRiZDE1"
-              // component={RouterLink}
-              // to={'/auth/register'}
-              sx={{ borderColor: 'white', color: 'success.main' }}
-            >
-              join Now
-            </Button>
-            : <></>}
+          <Button
+            color="inherit"
+            size="large"
+            variant="outlined"
+            startIcon={<Iconify icon="eva:external-link-fill" width={24} />}
+            target="_blank"
+            href=""
+            // component={RouterLink}
+            // to={'/auth/register'}
+            sx={{ borderColor: 'white', color: 'success.main' }}
+          >
+            Launch App
+          </Button>
         </Stack>
       </m.div>
     </StyledDescription>

@@ -27,6 +27,7 @@ import SvgColor from '../../components/svg-color';
 import Iconify from '../../components/iconify';
 import { MotionContainer, varFade } from '../../components/animate';
 import { useSettingsContext } from 'components/settings//SettingsContext';
+import { useAuthContext } from '../../../src/auth/useAuthContext';
 
 // ----------------------------------------------------------------------
 
@@ -93,7 +94,7 @@ export default function HomeHero() {
 
   return (
     <>
-      <StyledRoot sx={{ ...(hide && { opacity: 0 }),  background: `url(/assets/background/bg-${themeMode}.svg)` }}>
+      <StyledRoot sx={{ ...(hide && { opacity: 0 }), background: `url(/assets/background/bg-${themeMode}.svg)` }}>
         {/* <video autoPlay muted loop playsInline width="100%">
           <source src="/assets/videos/hero.mp4" />
         </video> */}
@@ -125,6 +126,8 @@ export default function HomeHero() {
 // ----------------------------------------------------------------------
 
 function Description() {
+  const { isAuthenticated, isInitialized } = useAuthContext();
+
   return (
     <StyledDescription>
       <m.div variants={varFade().in}>
@@ -210,20 +213,21 @@ function Description() {
               Start Your Free Trial
             </Button>
           </Stack>
-
-          <Button
-            color="inherit"
-            size="large"
-            variant="outlined"
-            startIcon={<Iconify icon="eva:external-link-fill" width={24} />}
-            target="_blank"
-            href=""
-            // component={RouterLink}
-            // to={'/auth/register'}
-            sx={{ borderColor: 'white', color: 'success.main' }}
-          >
-            Launch App
-          </Button>
+          {isAuthenticated ?
+            <Button
+              color="inherit"
+              size="large"
+              variant="outlined"
+              startIcon={<Iconify icon="eva:external-link-fill" width={24} />}
+              target="_blank"
+              href="https://t.me/+c6jqS8-mOGRiZDE1"
+              // component={RouterLink}
+              // to={'/auth/register'}
+              sx={{ borderColor: 'white', color: 'success.main' }}
+            >
+              join Now
+            </Button>
+            : <></>}
         </Stack>
       </m.div>
     </StyledDescription>

@@ -26,13 +26,13 @@ const navConfig = [
     role: 'user',
     // children: [{ items: [{ title: 'Demo', path: '#' }] }],
   },
-  {
-    title: 'Price',
-    icon: <Iconify icon='ic:round-grain' />,
-    path: '/price',
-    role: 'user',
-    // children: [{ items: [{ title: 'Demo', path: '#' }] }],
-  },
+  // {
+  //   title: 'Price',
+  //   icon: <Iconify icon='ic:round-grain' />,
+  //   path: '/price',
+  //   role: 'user',
+  //   // children: [{ items: [{ title: 'Demo', path: '#' }] }],
+  // },
   {
     title: 'About US',
     icon: <Iconify icon='eva:home-fill' />,

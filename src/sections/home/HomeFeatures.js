@@ -75,7 +75,7 @@ export default function HomeMobileDownload() {
             </Grid>
           ))}
         </Grid>
-        <Stack alignItems="center" mt={5}>
+        {/* <Stack alignItems="center" mt={5}>
           <Button
             variant="contained"
             sx={{ mx: 'auto' }}
@@ -85,7 +85,7 @@ export default function HomeMobileDownload() {
           >
             Sign Up For Free
           </Button>
-        </Stack>
+        </Stack> */}
       </Container>
     </StyledRoot>
   );

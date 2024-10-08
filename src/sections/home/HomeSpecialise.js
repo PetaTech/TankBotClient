@@ -96,7 +96,7 @@ export default function HomeSpecialise() {
 
           <m.div variants={varFade().inDown}>
             <Stack direction="row" alignItems="center" justifyContent="center" spacing={5} mt={5}>
-              <Button
+              {/* <Button
                 component={RouterLink}
                 sx={{
                   borderRadius: 5,
@@ -125,6 +125,24 @@ export default function HomeSpecialise() {
                 }}
               >
                 Subscribe
+              </Button> */}
+              <Button
+                color="inherit"
+                size="large"
+                variant="contained"
+                target="_blank"
+                href="https://t.me/+c6jqS8-mOGRiZDE1"
+                startIcon={<Iconify icon="eva:flash-fill" width={24} />}
+                sx={{
+                  // bgcolor: 'grey.800',
+                  color: 'success.main',
+                  // color: (theme) => (theme.palette.mode === 'light' ? 'common.white' : 'grey.800'),
+                  '&:hover': {
+                    bgcolor: 'text.primary',
+                  },
+                }}
+              >
+                Start Your Free Trial
               </Button>
             </Stack>
           </m.div>

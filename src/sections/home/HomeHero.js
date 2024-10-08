@@ -229,7 +229,7 @@ function Description() {
             </Button>
           </Stack>
 
-          <Button
+          {/* <Button
             color="inherit"
             size="large"
             variant="outlined"
@@ -241,7 +241,7 @@ function Description() {
             sx={{ borderColor: 'white', color: 'success.main' }}
           >
             Launch App
-          </Button>
+          </Button> */}
         </Stack>
       </m.div>
     </StyledDescription>

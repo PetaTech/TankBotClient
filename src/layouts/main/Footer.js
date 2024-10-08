@@ -19,7 +19,7 @@ const LINKS = [
     children: [
       { name: 'About us', href: '/about-us' },
       { name: 'Contact us', href: '/contact-us' },
-      { name: 'FAQs', href: '/faqs' },
+      // { name: 'FAQs', href: '/faqs' },
     ],
   },
   {
@@ -74,10 +74,10 @@ export default function Footer() {
           }}
         >
           <Grid item xs={8} md={3}>
-            <Typography variant="body2" sx={{ pr: { md: 5 } }}>
+            <Typography variant="body2" sx={{ pr: { md: 5 }, mb: { xs: 5, md: 0 } }}>
               PerfectForexTrade is a Leading Trading & Development Company with unique Services/ Tools.
             </Typography>
-
+{/* 
             <Stack
               spacing={1}
               direction="row"
@@ -92,7 +92,7 @@ export default function Footer() {
                   <Iconify icon={social.icon} />
                 </IconButton>
               ))}
-            </Stack>
+            </Stack> */}
           </Grid>
 
           <Grid item xs={12} md={7}>

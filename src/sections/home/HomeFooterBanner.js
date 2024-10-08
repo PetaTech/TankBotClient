@@ -6,6 +6,7 @@ import { Link as RouterLink } from 'react-router-dom';
 // components
 import Image from '../../components/image';
 import { MotionViewport, varFade } from '../../components/animate';
+import Iconify from 'components/iconify';
 import { PATH_AUTH } from 'routes/paths';
 // ----------------------------------------------------------------------
 const StyledRoot = styled('div')(({ theme }) => ({
@@ -34,14 +35,22 @@ export default function HomeFooterBanner() {
         >
           <Typography variant="h2">Start Earning Today</Typography>
           <Button
-            variant="contained"
-            color="primary"
+            color="inherit"
             size="large"
-            component={RouterLink}
-            to={PATH_AUTH.register}
-            sx={{ width: 200 }}
+            variant="contained"
+            target="_blank"
+            href="https://t.me/+c6jqS8-mOGRiZDE1"
+            startIcon={<Iconify icon="eva:flash-fill" width={24} />}
+            sx={{
+              // bgcolor: 'grey.800',
+              color: 'success.main',
+              // color: (theme) => (theme.palette.mode === 'light' ? 'common.white' : 'grey.800'),
+              '&:hover': {
+                bgcolor: 'text.primary',
+              },
+            }}
           >
-            Sign Up Now
+            Join Now
           </Button>
         </Stack>
       </Stack>

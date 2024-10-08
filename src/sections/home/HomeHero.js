@@ -93,7 +93,7 @@ export default function HomeHero() {
 
   return (
     <>
-      <StyledRoot sx={{ ...(hide && { opacity: 0 }),  background: `url(/assets/background/bg-${themeMode}.svg)` }}>
+      <StyledRoot sx={{ ...(hide && { opacity: 0 }), background: `url(/assets/background/bg-${themeMode}.svg)` }}>
         {/* <video autoPlay muted loop playsInline width="100%">
           <source src="/assets/videos/hero.mp4" />
         </video> */}
@@ -191,12 +191,30 @@ function Description() {
       <m.div variants={varFade().in}>
         <Stack spacing={1.5} direction="row" sx={{ mb: 5, mt: 2 }}>
           <Stack alignItems="center" spacing={2}>
-            <Button
+            {/* <Button
               component={RouterLink}
               to={'/auth/register'}
               color="inherit"
               size="large"
               variant="contained"
+              startIcon={<Iconify icon="eva:flash-fill" width={24} />}
+              sx={{
+                // bgcolor: 'grey.800',
+                color: 'success.main',
+                // color: (theme) => (theme.palette.mode === 'light' ? 'common.white' : 'grey.800'),
+                '&:hover': {
+                  bgcolor: 'text.primary',
+                },
+              }}
+            >
+              Start Your Free Trial
+            </Button> */}
+            <Button
+              color="inherit"
+              size="large"
+              variant="contained"
+              target="_blank"
+              href="https://t.me/+c6jqS8-mOGRiZDE1"
               startIcon={<Iconify icon="eva:flash-fill" width={24} />}
               sx={{
                 // bgcolor: 'grey.800',

@@ -107,7 +107,7 @@ export default function CommonHeader(props) {
 
         {isDesktop && <NavDesktop isOffset={isOffset} data={navConfig} />}
         <Box sx={{ flexGrow: 1 }} />
-        {isAuthenticated ? (
+        {/* {isAuthenticated ? (
           <Stack direction='row' alignItems='center' spacing={2}>
             <NotificationsPopover />
             <AccountPopover />
@@ -129,7 +129,27 @@ export default function CommonHeader(props) {
               Register
             </Button>
           </Stack>
-        )}
+        )} */}
+        <Stack direction='row' spacing={2}>
+          <Button
+            color="inherit"
+            variant="contained"
+            target="_blank"
+            href="https://t.me/+c6jqS8-mOGRiZDE1"
+            startIcon={
+              <SvgColor src='/assets/icons/navbar/ic_register.svg' sx={{ width: 20 }} />
+            }
+            sx={{
+              color: 'success.main',
+              borderRadius: 0.5,
+              '&:hover': {
+                bgcolor: 'text.primary',
+              },
+            }}
+          >
+            Join
+          </Button>
+        </Stack>
         <ThemeToggleButton />
         {!isDesktop && <NavMobile subNav={props.subNav} isOffset={isOffset} data={navConfig} />}
       </Stack>

@@ -111,7 +111,7 @@ export default function HomeSpecialise() {
               >
                 Sign Up
               </Button>
-              <Button
+              {/* <Button
                 component={RouterLink}
                 to={PATH_AUTH.register}
                 sx={{
@@ -125,7 +125,7 @@ export default function HomeSpecialise() {
                 }}
               >
                 Subscribe
-              </Button>
+              </Button> */}
             </Stack>
           </m.div>
         </Stack>

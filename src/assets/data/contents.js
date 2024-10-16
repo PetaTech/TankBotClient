@@ -29,10 +29,6 @@ const StockContents = {
       title: 'Custom Trading Bots',
       text: 'We can create completely custom trading bots to suit your specific needs. From profit targets to risk levels, we will deliver a custom solution that reflects your trading approach. A 24/7 profit generating, AI driven machine working to build your wealth. Our bots are 100% bulletproof, and you can enjoy a FREE setup and a FREE VPS/Server or Localhost depending on your needs. That means you always have control of security for complete confidence in everything you do. Whatever you are looking for from Stocks, Forex trading, our custom bot solutions will help you achieve your goals. Because a bot can do this automatically, you are free to carry on with your normal daily schedule, knowing that your bot is working for you all the time, so you never miss a trading opportunity. With every bot 100% tested and built using our unique logic and algorithms, you can trade with confidence, every day. To discuss your needs and enjoy a custom bot designed to deliver success for you, just get in touch today.',
     },
-    {
-      title: 'Blockchain Development and API integration to any related services',
-      text: 'As a dedicated software developer, we are committed to new technologies such as Blockchain, but also offer comprehensive development solutions for more established platforms such as Solidity, Rust, Go, Python, NodeJS and ReactJS. Our services include full, end-to-end development of dedicated applications, including complete front and back-end development, QA testing and rollout of the project, along with our comprehensive support post-integration.',
-    },
   ],
   aboutUs: {
     who: [
@@ -114,10 +110,6 @@ const CryptoContents = {
     {
       title: 'Custom Trading Bots',
       text: 'We can create completely custom trading bots to suit your specific needs. From profit targets to risk levels, we will deliver a custom solution that reflects your trading approach. A 24/7 profit generating, AI driven machine working to build your wealth. Our bots are 100% bulletproof, and you can enjoy a FREE setup and a FREE VPS/Server or Localhost depending on your needs. That means you always have control of security for complete confidence in everything you do. Whatever you are looking for from cryptocurrency trading, our custom bot solutions will help you achieve your goals. Because a bot can do this automatically, you are free to carry on with your normal daily schedule, knowing that your bot is working for you all the time, so you never miss a trading opportunity. With every bot 100% tested and built using our unique logic and algorithms, you can trade with confidence, every day. To discuss your needs and enjoy a custom bot designed to deliver success for you, just get in touch today.',
-    },
-    {
-      title: 'Blockchain Development and API integration to any related services',
-      text: 'As a dedicated software developer, we are committed to new technologies such as Blockchain, but also offer comprehensive development solutions for more established platforms such as Solidity, Rust, Go, Python, NodeJS and ReactJS. Our services include full, end-to-end development of dedicated applications, including complete front and back-end development, QA testing and rollout of the project, along with our comprehensive support post-integration.',
     },
   ],
   aboutUs: {

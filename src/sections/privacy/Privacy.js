@@ -90,33 +90,6 @@ export default function Service() {
                   color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
                 }}
               >
-                Blockchain Development and API integration to any related services
-              </Typography>
-            </m.div>
-            <m.div variants={varFade().inRight}>
-              <Typography
-                sx={{
-                  color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
-                }}
-              >
-                As a dedicated software developer, we are committed to new technologies such as
-                Blockchain, but also offer comprehensive development solutions for more established
-                platforms such as Solidity, Rust, Go, Python, NodeJS and ReactJS. Our services
-                include full, end-to-end development of dedicated applications, including complete
-                front and back-end development, QA testing and rollout of the project, along with
-                our comprehensive support post-integration.
-              </Typography>
-            </m.div>
-          </Stack>
-
-          <Stack spacing={1}>
-            <m.div variants={varFade().inRight}>
-              <Typography
-                variant="h4"
-                sx={{
-                  color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
-                }}
-              >
                 Experienced NFT and Token developers
               </Typography>
             </m.div>

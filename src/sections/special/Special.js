@@ -141,7 +141,7 @@ export default function Service() {
 
         <Stack spacing={3} mt={10}>
           {Contents.specials.map((item, index) => (
-            <m.div variants={varFade().inRight}>
+            <m.div key={index} variants={varFade().inRight}>
               <Typography
                 variant="h5"
                 sx={{

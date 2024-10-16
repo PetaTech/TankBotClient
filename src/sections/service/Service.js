@@ -84,7 +84,7 @@ export default function Service() {
         </Grid> */}
         <Stack spacing={3} mt={10}>
           {Contents.services.map((item, index) => (
-            <Stack spacing={1}>
+            <Stack key={index} spacing={1}>
               <m.div variants={varFade().inRight}>
                 <Typography
                   variant="h4"

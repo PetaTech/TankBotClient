@@ -109,8 +109,15 @@ export default function PricePanel() {
     'badge': 'WELCOME',
     'header-p1': 'PerfectForexTrade',
     // 'header-p2': 'trading bots',
-    'description': 'Make more money, and enjoy life.',
+    'description': 
+      '◼️ No initial or running costs ◼️ only need the funds you invest  ◼️30% of the profits generated will be automatically collected from your account each week  ◼️ All remaining profits are yours!',
   };
+
+
+  const formattedDescription = displayContent.description
+  .split('◼️')
+  .filter(line => line.trim() !== '') // Filter out any empty strings
+  .map((line, index) => <p key={index}>◼️ {line.trim()}</p>);
 
   const popularPlanIndex = 1;
 
@@ -237,8 +244,7 @@ export default function PricePanel() {
                             color='primary'>{displayContent['header-p1']} </Typography>
                 <Typography variant='h3' component='span'>{displayContent['header-p2']}</Typography>
               </Typography>
-              <Typography variant='subtitle1' color='textSecondary'
-                          paragraph={true}>{displayContent['description']}</Typography>
+              <Typography variant='subtitle1' color='textSecondary'>{formattedDescription}</Typography>
             </Container>
           </Box>
           <FormGroup sx={{ alignItems: 'end', marginBottom: 3 }}>

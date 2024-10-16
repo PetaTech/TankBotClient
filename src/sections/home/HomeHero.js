@@ -53,7 +53,7 @@ const StyledDescription = styled('div')(({ theme }) => ({
   margin: 'auto',
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center',
+  alignItems: 'start',
   justifyContent: 'center',
   // padding: theme.spacing(15, 0),
   height: '100%',

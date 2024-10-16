@@ -110,7 +110,7 @@ export default function PricePanel() {
     'header-p1': 'PerfectForexTrade',
     // 'header-p2': 'trading bots',
     'description': 
-      '◼️ No initial or running costs ◼️ only need the funds you invest  ◼️30% of the profits generated will be automatically collected from your account each week  ◼️ All remaining profits are yours!',
+      '◼️ No initial or running costs ◼️30% of the profits generated will be automatically collected from your account each week  ◼️ All remaining profits are yours!',
   };
 
 
@@ -247,7 +247,7 @@ export default function PricePanel() {
               <Typography variant='subtitle1' color='textSecondary'>{formattedDescription}</Typography>
             </Container>
           </Box>
-          <FormGroup sx={{ alignItems: 'end', marginBottom: 3 }}>
+          {/* <FormGroup sx={{ alignItems: 'end', marginBottom: 3 }}>
             <FormControlLabel
               control={<MaterialUISwitch />}
               onChange={handlePayModeChanged}
@@ -255,7 +255,7 @@ export default function PricePanel() {
               checked={!monthlyMode}
               labelPlacement='start'
             />
-          </FormGroup>
+          </FormGroup> */}
           <Grid container spacing={6}>
             {
               plans.map((plan, planIndex) => (

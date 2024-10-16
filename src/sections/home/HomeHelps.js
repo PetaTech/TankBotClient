@@ -47,7 +47,7 @@ export default function HomeHelps() {
             </Grid>
           ))}
         </Grid>
-        <Stack alignItems="center" mt={5}>
+        {/* <Stack alignItems="center" mt={5}>
           <Button
             variant="contained"
             sx={{ mx: 'auto' }}
@@ -57,7 +57,7 @@ export default function HomeHelps() {
           >
             Start Your Free Trial
           </Button>
-        </Stack>
+        </Stack> */}
       </Container>
     </StyledRoot>
   );

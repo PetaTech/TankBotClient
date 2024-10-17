@@ -44,6 +44,7 @@ import {
 import { useNavigate } from 'react-router-dom';
 // _mock_
 // components
+import Image from '../../components/image';
 import { MotionViewport } from '../../components/animate';
 import StripeCheckoutForm from '../../components/checkout-form/stripe/StripeCheckoutForm';
 import PayPayCheckoutForm from '../../components/checkout-form/paypal/PayPalCheckoutForm';
@@ -244,7 +245,15 @@ export default function PricePanel() {
                             color='primary'>{displayContent['header-p1']} </Typography>
                 <Typography variant='h3' component='span'>{displayContent['header-p2']}</Typography>
               </Typography>
-              <Typography variant='subtitle1' color='textSecondary'>{formattedDescription}</Typography>
+              {/* <Typography variant='subtitle1' color='textSecondary'>{formattedDescription}</Typography> */}
+              <Image
+                alt="Monthly Gain - 2021"
+                src="/assets/images/price/price.png"
+                sx={{
+                  // width: { lg: 800, xs: 1 },
+                  borderRadius: 2,
+                }}
+              />
             </Container>
           </Box>
           {/* <FormGroup sx={{ alignItems: 'end', marginBottom: 3 }}>

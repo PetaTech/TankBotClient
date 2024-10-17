@@ -250,6 +250,7 @@ export default function PricePanel() {
                 alt="Monthly Gain - 2021"
                 src="/assets/images/price/price.png"
                 sx={{
+                  // for test
                   // width: { lg: 800, xs: 1 },
                   borderRadius: 2,
                 }}

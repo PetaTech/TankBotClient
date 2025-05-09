@@ -153,13 +153,6 @@ export default function Footer() {
             due to potential or actual regulatory restrictions.
           </Typography>
           <Typography variant="caption">
-            perfectforextrade.com is a company incorporated in Cyprus with Company number (HE430023)
-            trading under the name “perfectforex-investment.com”. perfectforextrade.com is Limited is authorised
-            to provide the following services: 1. execution of orders for perfectforextrade.com using
-            personal funds and personal account; 2. Consulting Trading & Development and 3. Project
-            Development according to perfectforextrade.com services.
-          </Typography>
-          <Typography variant="caption">
             Any other product or service offered in the perfectforextrade.com and advertised on this
             website is provided by other group companies and does not fall within the
             perfectforextrade.com Limited regulated services.
